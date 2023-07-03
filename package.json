@@ -1,0 +1,29 @@
+{
+  "name": "dom-script-hijack",
+  "version": "1.0.0",
+  "description": "Provides a simple and convenient way to hijack scripts on web pages.",
+  "keywords": [
+    "dom",
+    "script",
+    "hijack"
+  ],
+  "homepage": "https://github.com/alowaniak/dom-script-hijack#readme",
+  "bugs": {
+    "url": "https://github.com/alowaniak/dom-script-hijack/issues"
+  },
+  "license": "0BSD",
+  "author": "alowan (https://alowan.nl)",
+  "browser": "index.js",
+  "type": "module",
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": "github:alowaniak/dom-script-hijack",
+  "scripts": {
+    "build": "tsc && node --test"
+  },
+  "devDependencies": {
+    "jsdom": "^22.1.0",
+    "typescript": "^5.1.6"
+  }
+}
